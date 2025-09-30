@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="get">
+    <table border="2" cellspacing="5" cellpadding="3" align="center">
+        <tr>
+            <th colspan="2">
+            Pizza Shop
+           </th>  
+        </tr>
+        <br><br>
+        <tr>
+            <td> Name </td>
+            <td>
+                <input type="text" name="name">
+            </td>
+        </tr>  
+        <tr></tr> 
+            <td> Topping</td>
+            <td>
+                <input type="checkbox" name="topping" value="onion">Onion
+                <input type="checkbox" name="topping" value="capsicum">Capsicum
+                <input type="checkbox" name="topping" value="tomato">Tomato
+                <input type="checkbox" name="topping" value="cheese">Cheese
+                <input type="checkbox" name="topping" value="mushroom">Mushroom
+                <input type="checkbox" name="topping" value="olive">Olive
+            </td>
+        </tr>
+        <tr>
+            <td>Extras</td>
+            <td>
+                <input type="radio" name="cheese" value="extra">Extra Cheese
+                <input type="radio" name="cheese" value="non">No Onion No Garlic
+               
+            </td>
+        </tr>
+        <tr>
+            <td>Size</td>
+            <td>
+                <select>
+                    <option value="small">Small</option>
+                    <option value="medium">Medium</option>
+                    <option value="large">Large</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td align="center" colspan="2">
+                Comment<br>
+                <textarea name="comment" rows="4" cols="50"></textarea>
+            </td>
+         
+        </tr>
+        <tr>    
+            <td>    
+                <input type="submit" value="Place order">
+                <input type="reset" value="reset"  
+            </td>
+        </tr>     
+    
+        </table>
+    </form>
+    
+</body>
+</html>
